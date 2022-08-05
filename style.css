@@ -58,6 +58,10 @@
     transition: 0.2s ease-in-out;
   }
 
+  h1.temp {
+    margin: 0;
+  }
+
   input.search-bar {
     border: none;
     outline: none;
