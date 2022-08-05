@@ -60,6 +60,7 @@
 
   h1.temp {
     margin: 0;
+    margin-bottom: 0.4em;
   }
 
   input.search-bar {
@@ -79,4 +80,12 @@
     opacity: 0.5;
   }
 
-  
+  .description {
+    text-transform: capitalize; 
+    margin-left: 8px;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+  }
