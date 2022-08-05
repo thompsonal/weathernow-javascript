@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    font-family: 'IM Fell Double Pica', serif;
+    font-family: 'Asap', sans-serif;
     z-index: 1;
   }
 
@@ -71,7 +71,7 @@
     border-radius: 24px;
     background: #7c7c7c2b;
     color: white;
-    font-family: inherit;
+    font-family: 'Asap';
     font-size: 105%;
     width: calc(100% - 100px);
   }
