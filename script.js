@@ -25,4 +25,20 @@ let weather = {
             document.querySelector(".humidity").innerText = "Humidity:" + humidity + "%";
             document.querySelector(".wind").innerText = "Wind Speed:" + speed + "km/h";
          },
-        };
+         search: function () {
+         this.fetchWeather(document.querySelector(".search-bar").value)
+        },
+    };
+        //search bar//
+        document.querySelector(".search button").addEventListener("click", function () {
+            weather.search();
+        });
+
+        //enter key//
+        document.querySelector(".search-bar")
+    .addEventListener("keyup", function (event) {
+    if (event.key == "Enter") {
+      weather.search();
+    }
+  });
+
