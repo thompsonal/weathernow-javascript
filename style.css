@@ -111,4 +111,10 @@
   }
 
 
- 
+  @media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://www.pexels.com/photo/purple-sky-1287142/") no-repeat;
+      background-size: cover;
+    }
+}
